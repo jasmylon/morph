@@ -5,7 +5,7 @@ import "errors"
 var (
 	// ErrInvalidL1MessageOrder is returned if a block contains L1 messages in the wrong
 	// order. Possible scenarios are: (1) L1 messages do not follow their QueueIndex order,
-	// (2) the block skipped once or more L1 message, (3) L1 messages are not included in
+	// (2) the block skipped one or more L1 message, (3) L1 messages are not included in
 	// a contiguous block at the front of the block.
 	ErrInvalidL1MessageOrder = errors.New("invalid L1 message order")
 
