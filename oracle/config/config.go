@@ -139,7 +139,7 @@ func ValidateConfig(cfg *Config) error {
 
 	if (cfg.RollupAddr == common.Address{}) {
 		return fmt.Errorf(
-			"invalied address,RollupAddress:%v",
+			"invalid address,RollupAddress:%v",
 			cfg.RollupAddr.String(),
 		)
 	}
