@@ -52,7 +52,7 @@ where
 
         let latest = self.l1_provider.get_block_number().await?;
 
-        // Fetch a commited batch on l1 rollup.
+        // Fetch a committed batch on l1 rollup.
         let (batch_info, batch_header) = match get_committed_batch(
             U64::from(latest),
             &self.l1_rollup,
