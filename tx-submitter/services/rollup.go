@@ -165,7 +165,7 @@ func (r *Rollup) Start() error {
 
 	// metrics
 	go utils.Loop(r.ctx, 10*time.Second, func() {
-		// get balacnce of wallet
+		// get balance of wallet
 		balance, err := r.L1Client.BalanceAt(context.Background(), r.WalletAddr(), nil)
 		if err != nil {
 			log.Error("get wallet balance error", "error", err)
