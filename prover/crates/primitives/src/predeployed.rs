@@ -7,7 +7,7 @@ pub mod l1_gas_price_oracle {
     /// L1 base fee slot in L1GasPriceOracle
     pub const BASE_FEE_SLOT: U256 = U256::from_limbs([1, 0, 0, 0]);
 
-    /// The following 2 slots will be depreciated after curie fork
+    /// The following 2 slots will be deprecated after curie fork
     /// L1 overhead slot in L1GasPriceOracle
     pub const OVERHEAD_SLOT: U256 = U256::from_limbs([2, 0, 0, 0]);
     /// L1 scalar slot in L1GasPriceOracle
