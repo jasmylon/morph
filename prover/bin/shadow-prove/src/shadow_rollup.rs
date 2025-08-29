@@ -75,7 +75,7 @@ where
             return Ok(None);
         };
 
-        // Assembling a batche of the same commitment.
+        // Assembling a batch of the same commitment.
         #[rustfmt::skip]
         //   Below is the encoding for `BatchHeader`, reference: morph-repo/contracts/contracts/libraries/codec/BatchHeaderCodecV1.sol
         //    
